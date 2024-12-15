@@ -1,0 +1,237 @@
+.pageContainer {
+    width: 500%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin-left: -250px;
+  }
+  .overlay {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px; 
+    width: 90%;
+    max-width: 10000px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .backButton {
+    position: absolute;
+    margin-top: -5px;
+    display: block;
+    margin-left: -5px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: #13335c;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .backButton:hover {
+    transform: scale(1.1);
+    background-color: #006474;
+  }
+  
+  .header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:#4c4c4c;
+  }
+  
+  .associationList {
+    max-height: 300px;
+    overflow-y: auto;
+    padding-right: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc transparent;
+  }
+  
+  .associationRow {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .associationDetail {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  .associationDetail strong {
+    font-weight: bold;
+  }
+  
+  .deleteButton {
+    position: relative;
+    right: 8px;
+    background-color: #ff4d4f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: #d9363e;
+  }
+  
+  .confirmPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 10;
+  }
+
+  .confirmPopup p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .confirmYesButton,
+  .confirmNoButton {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .confirmYesButton {
+    background-color: #13335c;
+    color: white;
+  }
+
+  .confirmYesButton:hover {
+    background-color: #004d5b;
+  }
+  
+  .confirmNoButton {
+    background-color: #ccc;
+    color: black;
+  }
+  
+  .confirmNoButton:hover {
+    background-color: #bbb;
+  }
+  
+  .decorativeCircles div {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.85; 
+    overflow: hidden;
+  }
+  
+  .decorativeCircles .circle1,
+  .decorativeCircles .circle2,
+  .decorativeCircles .circle3,
+  .decorativeCircles .circle4,
+  .decorativeCircles .circle5,
+  .decorativeCircles .circle6,
+  .decorativeCircles .circle7,
+  .decorativeCircles .circle8,
+  .decorativeCircles .circle9,
+  .decorativeCircles .circle10 {
+    opacity: 0.60;  
+  }
+  
+  .decorativeCircles .circle1 {
+    background: linear-gradient(135deg, #e7eaea, #003961);
+    width: 200px;
+    height: 200px;
+    top: -80px;
+    left: -120px;
+  }
+  
+  .decorativeCircles .circle2 {
+    background: linear-gradient(-135deg, #f3f2f1, #9fd2ff);
+    width: 150px;
+    height: 150px;
+    top: 20px;
+    right: -100px;
+  }
+  
+  .decorativeCircles .circle3 {
+    background: linear-gradient(135deg, #d8d8d8, #47dbd9);
+    width: 220px;
+    height: 220px;
+    bottom: -120px;
+    left: 80px;
+  }
+  
+  .decorativeCircles .circle4 {
+    background: linear-gradient(-135deg, #b6bcbd, #003961);
+    width: 180px;
+    height: 180px;
+    top: -100px;
+    left: 500px;
+  }
+  
+  .decorativeCircles .circle5 {
+    background: linear-gradient(135deg, #ffffff, #76c9db);
+    width: 130px;
+    height: 130px;
+    bottom: -10px;
+    right: 150px;
+  }
+  
+  .decorativeCircles .circle6 {
+    background: linear-gradient(135deg, #bab7b7 20%, #3D5A80 80%);
+    width: 100px;
+    height: 100px;
+    top: 250px;
+    left: -50px;
+  }
+  
+  .decorativeCircles .circle7 {
+    background: linear-gradient(-135deg, #c7c6c3, #7ffff9);
+    width: 180px;
+    height: 180px;
+    top: -70px;
+    right: 150px;
+  }
+  
+  .decorativeCircles .circle8 {
+    background: linear-gradient(-135deg, #bec4c5, #003961);
+    width: 150px;
+    height: 150px;
+    bottom: -30px;
+    left: 400px;
+  }
+  
+  .decorativeCircles .circle9 {
+    background: linear-gradient(135deg, #adaeb4, #003961);
+    width: 170px;
+    height: 170px;
+    bottom: 150px;
+    right: -100px;
+  }
+  
+  .decorativeCircles .circle10 {
+    background: linear-gradient(-135deg, #0a9edd, #c0bcb9);
+    width: 200px;
+    height: 200px;
+    top: -50px;
+    left: 50px;
+    transform: translateX(-50%);
+  }
+  

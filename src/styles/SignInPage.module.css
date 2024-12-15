@@ -1,0 +1,198 @@
+.pageContainer {
+  position: absolute;
+  left: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125%;
+  height: 100vh;
+  position: relative;
+}
+
+.decorativeCircles div {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.85; 
+}
+
+.decorativeCircles .circle1,
+.decorativeCircles .circle2,
+.decorativeCircles .circle3,
+.decorativeCircles .circle4,
+.decorativeCircles .circle5,
+.decorativeCircles .circle6,
+.decorativeCircles .circle7,
+.decorativeCircles .circle8,
+.decorativeCircles .circle9,
+.decorativeCircles .circle10 {
+  opacity: 0.60;  
+}
+
+.decorativeCircles .circle1 {
+  background: linear-gradient(135deg, #e7eaea, #003961);
+  width: 200px;
+  height: 200px;
+  top: -80px;
+  left: -120px;
+}
+
+.decorativeCircles .circle2 {
+  background: linear-gradient(-135deg, #f3f2f1, #9fd2ff);
+  width: 150px;
+  height: 150px;
+  top: 20px;
+  right: -100px;
+}
+
+.decorativeCircles .circle3 {
+  background: linear-gradient(135deg, #d8d8d8, #47dbd9);
+  width: 220px;
+  height: 220px;
+  bottom: -120px;
+  left: 80px;
+}
+
+.decorativeCircles .circle4 {
+  background: linear-gradient(-135deg, #b6bcbd, #003961);
+  width: 180px;
+  height: 180px;
+  top: -100px;
+  left: 500px;
+}
+
+.decorativeCircles .circle5 {
+  background: linear-gradient(135deg, #ffffff, #76c9db);
+  width: 130px;
+  height: 130px;
+  bottom: -10px;
+  right: 150px;
+}
+
+.decorativeCircles .circle6 {
+  background: linear-gradient(135deg, #bab7b7 20%, #3D5A80 80%);
+  width: 100px;
+  height: 100px;
+  top: 250px;
+  left: -50px;
+}
+
+.decorativeCircles .circle7 {
+  background: linear-gradient(-135deg, #c7c6c3, #7ffff9);
+  width: 180px;
+  height: 180px;
+  top: -70px;
+  right: 150px;
+}
+
+.decorativeCircles .circle8 {
+  background: linear-gradient(-135deg, #bec4c5, #003961);
+  width: 150px;
+  height: 150px;
+  bottom: -30px;
+  left: 400px;
+}
+
+.decorativeCircles .circle9 {
+  background: linear-gradient(135deg, #adaeb4, #003961);
+  width: 170px;
+  height: 170px;
+  bottom: 150px;
+  right: -100px;
+}
+
+.decorativeCircles .circle10 {
+  background: linear-gradient(-135deg, #0a9edd, #c0bcb9);
+  width: 200px;
+  height: 200px;
+  top: -50px;
+  left: 50px;
+  transform: translateX(-50%);
+}
+
+.overlayContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.86);
+  border-radius: 37px;
+  padding: 40px;
+  width: 60%;
+  gap: 20px;
+  max-width: 1400px;
+  position: relative;
+  z-index: 2;
+}
+
+.leftSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  z-index: 8;
+}
+
+.logo {
+  width: 180px; 
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+  color:#4c4c4c;
+  z-index: 6;
+}
+
+.inputField {
+  width: 90%;
+  padding: 10px;
+  opacity: 85%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  z-index: 8;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.signInButton {
+  padding: 10px 20px;
+  background-color: #003961;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.signInButton:hover {
+  background-color: #006474;
+}
+
+.signUpLink {
+  text-align: center;
+}
+
+.signUpLink a {
+  color: #003961;
+  text-decoration: none;
+}
+
+.rightSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.graphic {
+  position: flex;
+  margin-bottom: -50px;
+  width: 500px; 
+  height: auto;
+  margin-left: -100px;
+  z-index: 7;
+}
